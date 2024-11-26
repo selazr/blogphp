@@ -1,0 +1,79 @@
+.login {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 60vw;
+    margin: 2rem auto;
+}
+
+.login label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.login input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.login input:focus {
+    border-color: #09f;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+.login .button-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 1rem; /* Espaciado adicional */
+}
+.login button {
+    width: 30%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: solid black 1px;
+}
+
+.login button:hover {
+    background-color: rgb(155, 209, 245);
+}
+
+.login button:active {
+    background-color: #09f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.login p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.login p a {
+    color: #09f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.login p a:hover {
+    color: rgb(155, 209, 245);
+}
